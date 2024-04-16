@@ -11,23 +11,35 @@
 
     <title>Validity</title>
 
-    <script> 
+    <script src="functions.js"></script>
     
-        window.addEventListener('DOMContentLoaded', load, false);
-      
-    </script>
     
 	
 </head>
 
 <body>
+    
+    <p id="demo"> ppp</p>
 
-    <form  method="get" action="valid.php" >
-        <input type="text" name="barcode">
+    <form  method="get" onsubmit="getURL()">
+        <input type="text" name="barcode" id="barcode">
         <!--<input type="text" id="barcode" name="barcode">-->
     </form>
-   
 
+    <script> 
+    
+        window.addEventListener('DOMContentLoaded', load, false);
+
+        //function getURL() {
+
+     //   "The full URL of this page is:<br>" + window.location.href;
+
+      ///}
+        
+      
+    </script>
+   
+    
 
     <video id="video" width="240" height="320" autoplay></video>
 

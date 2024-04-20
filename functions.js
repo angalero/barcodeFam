@@ -12,11 +12,16 @@ var codeS = new String(code);
 //alert(barcode);
 
 if (barcode == "COV0047777") {
-    //return <link rel="stylesheet" href="colours\green.css"></link>;
-    alert("works");
+    //var currlnk = document.getElementById("colour").innerHTML;
+    //var lnk = document.getElementById("colour").innerHTML = "<link rel=stylesheet href=colours\\green.css>";
+
+    document.getElementById("colour").innerHTML = "<link rel=stylesheet href=colours\\green.css>";
+    
+   // document.getElementById("colour").innerHTML = "<a href=colourGreen.html></a>";
 }
 
-
+document.getElementById("test").innerHTML = "test done";
+//alert(currlnk);
 // "The full URL of this page is:<br>" + window.location.href;
 
 }

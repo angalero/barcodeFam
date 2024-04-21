@@ -2,6 +2,7 @@
 var codeOne = "687HYFD5";
 
 const newCodes = ["RMJ6746X", "YCI4410W", "COV0047777", "YEW9919M", "IXL6029C", "COV0049555", "BFN4478I" ];
+
 const usedCodes =[];
 //
 

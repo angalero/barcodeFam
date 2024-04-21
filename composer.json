@@ -1,4 +1,8 @@
 {
+
+    "name": "angie/barcode-fam",
+    "description": "this is to create an application that verifies a scanned in barcode",
+    "license": "MIT",
     "require": {
         "monolog/monolog": "2.0.*"
     }

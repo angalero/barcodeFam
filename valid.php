@@ -52,8 +52,8 @@ if ($_GET['barcode'] == $tagOne) {
    $colour = array();
 
    $output[] = "<html>\n";
-   $output[] = "<head>\n<title></title>\n<link rel=stylesheet href=colours\green.css>\n</head>\n"; // the head tag
-	$colour[] = "<head>\n<title></title>\n<link rel=stylesheet href=colours\green.css>\n</head>\n"; // the head tag
+   $output[] = "<head>\n<title></title>\n<link rel=stylesheet href=colours\red.css>\n</head>\n"; // the head tag
+	
 	$output[] = "<body><p><output thing</p>\n";
 
    $output[] = "</body>\n";
@@ -61,11 +61,11 @@ if ($_GET['barcode'] == $tagOne) {
 
    
 
-   echo "<link rel=stylesheet href=colours\green.css>";
+   //echo "<link rel=stylesheet href=colours\green.css>";
 
    //echo (implode($colour));
    //echo (implode($output));
-   
+
    echo "\nthe fucn red\n";
 
    return(implode($output));
